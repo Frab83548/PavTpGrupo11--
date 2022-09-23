@@ -28,10 +28,7 @@ namespace PavTpGrupo11
 
         }
 
-        private void altaPersonaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-          
-        }
+     
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -40,6 +37,29 @@ namespace PavTpGrupo11
 
         private void personaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void proveedorerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrarEmpleadoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrarEmpleadoToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            
+           
+        }
+
+        private void registrarEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmABM_EMPLEADOS ventana = new frmABM_EMPLEADOS();
+            ventana.Show();
 
         }
     }
